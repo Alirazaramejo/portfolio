@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="assets/img/Ali Raza.svg" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/img/Ali Raza.svg">
 
     <!-- Character Encoding -->
     <meta charset="UTF-8">
@@ -33,30 +34,18 @@
     <!-- Language Declaration -->
     <meta name="language" content="en">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./assets/img/Ali-Raza.svg">
-    
-    <!-- Main CSS -->
+    <!-- Main CSS (Minified version to reduce size) -->
     <link rel="stylesheet" href="main.css">
-    
-    <!-- Google Fonts -->
+
+    <!-- Google Fonts (Optimized loading) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
     
-    <!-- Remix Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
-    <!-- SwiperJS CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-
     <!-- Open Graph Meta Tags (For better social sharing preview) -->
     <meta property="og:title" content="Ali Raza - Full Stack Developer Portfolio">
     <meta property="og:description" content="Explore Ali Raza's expertise in full-stack development, React.js, and Node.js. Check out innovative projects and achievements.">
-    <meta property="og:image" content="./assets/img/portfolio-thumbnail.jpg">
+    <meta property="og:image" content="./assets/img/ali.JPG">
     <meta property="og:url" content="https://example.com"> <!-- Replace with actual URL -->
     <meta property="og:type" content="website">
 
@@ -81,7 +70,17 @@
     }
     </script>
     
+    <!-- Asynchronous Loading of External Resources -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" async>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" async>
+
+   
+
+    <!-- Preload Critical Resources (like font files) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" as="style">
 </head>
+
 
 
 
