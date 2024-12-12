@@ -6,17 +6,52 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://ali-raza-developer.vercel.app/</loc>
-  <lastmod>2024-12-09T03:58:31+00:00</lastmod>
+  <lastmod>2024-12-12T04:20:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+
 <url>
   <loc>https://ali-raza-developer.vercel.app/assets/Ali_raza.pdf</loc>
-  <lastmod>2024-12-09T03:58:31+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 
+<url>
+  <loc>mailto:alirazakhan2540@gmail.com</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://api.whatsapp.com/send?phone=923012140811</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1</priority>
+</url>
+
+<url>
+  <loc>https://instagram.com/alirazaramejo</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://www.linkedin.com/in/ali-raza-dev/</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://github.com/Alirazaramejo</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://twitter.com/Alirazaramejo</loc>
+  <lastmod>2024-12-12T04:20:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 
 </urlset>
